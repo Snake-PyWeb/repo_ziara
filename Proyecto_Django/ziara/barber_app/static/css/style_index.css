@@ -1,0 +1,11 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container-enlaces{
+    display: flex;
+    justify-content: space-around;
+}
+

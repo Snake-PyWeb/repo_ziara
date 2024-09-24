@@ -26,6 +26,4 @@ Recuerden que no estamos solos en esto, somos un equipo 💪. Vamos a hacer que 
 
 ---
 
-![Ziara Logo](https://your-imagelink-here.png) <!-- Aquí puedes agregar el logo o una imagen representativa -->
-
 💪 ¡Vamos equipo, a construir algo increíble juntos!

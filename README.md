@@ -2,7 +2,7 @@
 
 ### 👋 ¡Hola Santiago, Andrés y Holguín!
 
-Bienvenidos al corazón de nuestro proyecto **Ziara** 🎉. Este repositorio será nuestro cuartel general, donde juntos haremos realidad el software para barberías más épico que jamás haya existido. Aquí reuniremos todas nuestras ideas, código y documentación para llevar este proyecto al siguiente nivel. Cada línea de código que escribamos nos acercará más a esa barbería del futuro que estamos imaginando.
+Bienvenidos al corazón de nuestro proyecto **Ziara** 🎉. Este repositorio será nuestro cuartel general, donde juntos haremos realidad el software para barberías . Aquí reuniremos todas nuestras ideas, código y documentación para llevar este proyecto al siguiente nivel.
 
 Recuerden que no estamos solos en esto, somos un equipo 💪. Vamos a hacer que **Ziara** sea un software que no solo funcione, sino que impresione. ¡Este es nuestro espacio, así que sientan la libertad de aportar ideas, hacer commits, y sobre todo, disfrutar el proceso!
 

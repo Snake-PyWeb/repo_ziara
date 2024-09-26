@@ -1,0 +1,182 @@
+/* Body y html */
+
+body,html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+/* Inicio Estilos de tarejtas */
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 280px;
+    max-height: 330px;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.08),-4px -4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: all 0.3s;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.img_tarjeta{
+    width: 100%;
+    height: 64%;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_tarjeta {
+    display: flex;                /* Usar flexbox para alinear elementos hijos */
+    justify-content: space-around;  /* Alinear tarjetas al inicio del contenedor */
+    gap: 20px;                   /* Espacio entre las tarjetas */
+    align-items: flex-start;     /* Alinear elementos al inicio en el eje vertical */
+    overflow-x: auto;            /* Permitir desplazamiento horizontal si hay muchas tarjetas */
+    white-space: nowrap;         /* Evitar que las tarjetas se envuelvan en una nueva línea */
+    width: 90%;
+    margin: auto;
+}
+
+/* Fin Estilos de Tarjeta */
+
+
+
+
+
+
+
+/* Inicio Estilos Enlaces Principales */
+
+.container-enlaces{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 1rem;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#formularios{
+    display: flex;
+    justify-content:flex-end;
+    gap: 1rem;
+    margin: 2rem;
+}
+
+.container-enlaces li , #formularios li {
+    
+    list-style: none;
+}
+
+.container-enlaces a , #formularios a{
+    text-decoration: none;
+}
+
+
+.container-enlaces a:hover , #formularios a:hover{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #fff9f9;
+    border-radius: 5px;
+}
+
+.enlaces{
+    border: 1px solid black;
+}
+
+/* Fin Estilos Enlaces Principales */
+
+
+
+/* Inicio Titulo boton de reserva y descripcion */
+#art-desc-prc p {
+    text-align: justify;
+}
+
+#art-desc-prc{
+    width: 40%;
+}
+
+.section-one{
+    margin-left: 2rem;
+}
+
+#titulo-section1 h1{
+    font-size: 2rem;
+}
+
+#titulo-section1 p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Inicio Titulo boton de reserva y descripcion */
+
+
+
+
+/* Inicio section2 */
+
+.container-section2{
+    margin: 6rem;
+    display: flex;
+    justify-content:center;
+    gap:10rem;
+    align-items: center;
+}
+
+/* Fin section2 */
+
+
+
+/* Inicio Section3 */
+
+#titulo-section3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.enlaces-section3 ul{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.enlaces-section3 a ,.enlaces-section3 ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.enlaces-section3 a:hover{
+    text-decoration: underline;
+}
+
+.container-section3{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+

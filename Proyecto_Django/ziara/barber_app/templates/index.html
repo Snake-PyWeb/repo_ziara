@@ -1,29 +1,182 @@
-{%load static%}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <link rel="stylesheet" href="{%static 'css/style_index.css'%}">
-    <title>Home|Ziara</title>
+    <link rel="stylesheet" href="../static/css/style_index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Página principal de Ziara, barbería de estilo clásico.">
+    <title>Ziara | Home</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="container-enlaces">
-                <li><a href="">enlace</a></li>
-                <li><a href="">enlace</a></li>
-                <li><a href="">enlace</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <header>
-                <h1>Bienvenidos a Ziara Barber Shop</h1>
-            </header>
-        </section>
-    </main>
+    <!-- Div para el fondo -->
+    <div class="fondo">
+
+        <header >
+            <p id="horario">Estamos abiertos 7 días a la semana</p>
+            <nav >
+                <ul class="container-enlaces">
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Tiendas</a></li>
+                    <li><a href="#">Nuestros Barberos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                </ul>
+                <ul id="formularios">
+                    <li><button>Iniciar Sesión</button></li>
+                    <li><button>Registrarse</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <br>
+
+        <main>
+            <section >
+                <div class="section-one">
+                    <header id="titulo-section1">
+                        <h1 >ZIARA</h1>
+                        <p>Cortes de pelo y servicios de peluquería </p>
+                    </header>
+
+                    <div id="art-desc-prc">
+                        <article > <!-- articulo de descripcion principal -->
+                            <p>En Ziara Barbershop, ofrecemos una amplia gama de servicios profesionales de corte de pelo y peluquería para hombres. Nuestros experimentados barberos utilizan las últimas técnicas y herramientas para darle el aspecto perfecto. Tanto si necesita un corte de pelo clásico, un afeitado a navaja o un recorte de barba, tenemos todo lo que necesita.</p>
+                        </article>
+                    </div>
+
+                    <br><br>
+
+                    <button id="call">RESERVACIÓN</button>
+                    <button>Empezar a Comprar</button>
+                </div>
+            </section>
+
+            <br><br>
+
+            <section>
+                <div class="container-section2">
+                    <div id="img-section2">
+                        <img src="https://via.placeholder.com/400x400" alt="Imagen grande con descripcion">
+                    </div>
+                    <div>
+                        <header>
+                            <h2>Mejora Tu Imagen Más Rápido Y Fácil Este 2024</h2>
+                        </header>
+                        <ul>
+                            <li>Más de 200 famosos recomiendan ZIARA</li>
+                            <li>Obtén asesoría de imagen GRATIS con nuestros expertos en Barberia</li>
+                            <li>Múltiples sucursales en Medellín</li>
+                            <li>En Ziara nos tomamos muy en serio el cuidado de tu imagen</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <br><br>
+
+            <section>
+                <div class="container-section3">
+
+                    <div id="titulo-section3">
+                        <header>
+                            <h2>Cortes y Productos mas Populares</h2>
+                        </header>
+
+                        <article>
+                            Aca puedes encontrar nuestros cortes y productos mas populares de nuestra tienda , recuerda ziara es tu Barberia de confianza
+                        </article>
+                    </div>
+
+                    <div class="container-section3">
+                        <nav class="enlaces-section3">
+                            <ul >
+                                <li><a href="">Popular</a></li>
+                                <li><a href="">Cortes del mes</a></li>
+                                <li><a href="">Productos</a></li>
+                                <li><a href="">Cortes Exclusivos</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+                    <br><br>
+
+                    <div class="container_tarjeta">
+                        <div class="tarjeta">
+                            <div class="img_tarjeta"></div>
+                            <p class="titulo_tarjeta">La plancha</p>
+                            <p class="desc_tarjeta">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                    
+                        <div class="tarjeta">
+                            <div class="img_tarjeta"></div>
+                            <p class="titulo_tarjeta">La plancha</p>
+                            <p class="desc_tarjeta">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+
+                        <div class="tarjeta">
+                            <div class="img_tarjeta"></div>
+                            <p class="titulo_tarjeta">La plancha</p>
+                            <p class="desc_tarjeta">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+
+                        <div class="tarjeta">
+                            <div class="img_tarjeta"></div>
+                            <p class="titulo_tarjeta">La plancha</p>
+                            <p class="desc_tarjeta">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="container-footer">
+                    <div id="titulo-desc">
+                        <p>ZIARA</p>
+                        <p>Nuestra visión es proporcionar comodidad y ayudar a  mejorar su imagen</p>
+                        <br><br>
+                        <p>&copy; 2024 Ziara. Todos los derechos reservados.</p>
+                    </div>
+
+                    <div class="container-table">
+                        <table>
+                            <tbody>
+
+                                <tr >
+                                    <th>Ayuda</th>
+                                    <th>Comunidad Ziara</th>
+                                    <th>Redes Sociales</th>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="">Como Funciona</a></td>
+                                    <td><a href="">Eventos</a></td>
+                                    <td><a href="">Facebook</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="">Tiendas</a></td>
+                                    <td><a href="">Blog</a></td>
+                                    <td><a href="">Instagram</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="">Promociones</a></td>
+                                    <td><a href="">Nuestro Equipo</a></td>
+                                    <td><a href="">Twitter</a></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </footer>
+        </main>
+
+    </div> <!-- Cierre del div fondo -->
+    
 </body>
 </html>
+

@@ -1,11 +1,308 @@
-body{
+/* Body y html */
+
+body,html{
     padding: 0;
     margin: 0;
+    font-family: 'Cinzel', serif;
+    background-color: #E5E5E5;
 }
 
+
+
+
+
+/* Inicio Estilos de tarejtas */
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 280px;
+    max-height: 330px;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.08),-4px -4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: all 0.3s;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.img_tarjeta{
+    width: 100%;
+    height: 64%;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_tarjeta {
+    display: flex;                /* Usar flexbox para alinear elementos hijos */
+    justify-content: space-around;  /* Alinear tarjetas al inicio del contenedor */
+    gap: 20px;                   /* Espacio entre las tarjetas */
+    align-items: flex-start;     /* Alinear elementos al inicio en el eje vertical */
+    overflow-x: auto;            /* Permitir desplazamiento horizontal si hay muchas tarjetas */
+    white-space: nowrap;         /* Evitar que las tarjetas se envuelvan en una nueva línea */
+    width: 90%;
+    margin: auto;
+}
+
+/* Fin Estilos de Tarjeta */
+
+
+
+
+
+
+
+/* Inicio Estilos Enlaces Principales */
 
 .container-enlaces{
     display: flex;
     justify-content: space-around;
+    background-color: #3D405B;
+    padding: 1rem;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#horario {
+    margin-left: 1rem;
+    color: #FF5252 ;
+    font-weight: bolder;
+}
+
+
+#formularios{
+    display: flex;
+    justify-content:flex-end;
+    gap: 1rem;
+    margin: 2rem;
+}
+
+.container-enlaces li , #formularios li {
+    
+    list-style: none;
+}
+
+.container-enlaces a , #formularios a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.container-enlaces a:hover , #formularios a:hover{
+    padding: 5px;
+    background-color: #0056B3;
+    border-radius: 5px;
+}
+
+.enlaces{
+    border: 1px solid black;
+}
+
+/* Fin Estilos Enlaces Principales */
+
+
+
+/* Inicio Titulo boton de reserva y descripcion */
+#art-desc-prc p {
+    text-align: justify;
+}
+
+#art-desc-prc{
+    width: 40%;
+}
+
+.section-one{
+    margin-left: 2rem;
+}
+
+#titulo-section1 h1{
+    font-size: 2rem;
+}
+
+#titulo-section1 p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Inicio Titulo boton de reserva y descripcion */
+
+
+
+
+/* Inicio section2 */
+
+.container-section2{
+    margin: 6rem;
+    display: flex;
+    justify-content:center;
+    gap:10rem;
+    align-items: center;
+}
+
+/* Fin section2 */
+
+
+
+
+
+
+
+
+/* Inicio Section3 */
+
+#titulo-section3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.enlaces-section3 ul{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.enlaces-section3 a ,.enlaces-section3 ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.enlaces-section3 a:hover{
+    text-decoration: underline;
+}
+
+.container-section3{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Fin Section3 */
+
+
+
+
+
+
+
+
+
+
+/* Inicio Footer */
+
+.container-footer{
+    background-color: #2B2D42;
+    display: flex;
+    justify-content: space-around;
+    color:  #FFFFFF;
+}
+
+.container-footer a{
+    color: #1D8FFF;
+    text-decoration: none;
+}
+
+#titulo-desc{
+    width: 20%;
+    text-align:start;
+}
+
+.container-table table{
+    width: 100%;
+    border-spacing: 8rem 0;
+    text-align: justify;
+}
+
+.container-table{
+    margin: 1rem;
+}
+
+.container-table th ,.container-table td{
+    padding-bottom: 1rem;
+}
+
+footer{
+    padding-top: 6rem;
+}
+
+/* Fin Footer */
+
+
+
+
+/* inicio Boton */
+button {
+    align-items: center;
+    appearance: none;
+    background-color: #fcfcfd;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow:
+    rgba(45, 35, 66, 0.2) 0 2px 4px,
+    rgba(45, 35, 66, 0.15) 0 7px 13px -3px,
+    #d6d6e7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395a;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition:
+    box-shadow 0.15s,
+    transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+button:focus {
+    box-shadow:
+    #d6d6e7 0 0 0 1.5px inset,
+    rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+    #d6d6e7 0 -3px 0 inset;
+}
+
+button:hover{
+    box-shadow:
+    rgba(45, 35, 66, 0.3) 0 4px 8px,
+    rgba(45, 35, 66, 0.2) 0 7px 13px -3px,
+    #d6d6e7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+button:active {
+    box-shadow: #d6d6e7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+#call{
+    background-color: #FF5252;
+    color: #F5F5F5;
 }
 
